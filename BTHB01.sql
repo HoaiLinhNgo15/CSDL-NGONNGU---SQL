@@ -223,7 +223,3 @@ INSERT INTO PHANCONG VALUES ('A2.003', 'B2', '10.0');
 INSERT INTO PHANCONG VALUES ('A2.004', 'C3', '10.0');
 INSERT INTO PHANCONG VALUES ('A2.001', 'B2', '10.0');
 INSERT INTO PHANCONG VALUES ('A2.002', 'C3', '10.0');
-
-SELECT @@VERSION;
-EXEC sp_addrolemember 'db_owner', 'db_ddladmin';
-SELECT name FROM sys.database_principals WHERE type IN ('S', 'U', 'G', 'R');
